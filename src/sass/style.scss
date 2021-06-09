@@ -1,0 +1,26 @@
+@import "libs/normalize.min";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "base/mixins";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #efefef;
+}
+hr {
+  border: none;
+  background-color: #efefef;
+  height: 1px;
+}
+
+.container {
+  max-width: 1110px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@import "blocks/header";
+@import "blocks/banner";
+@import "blocks/orders";
+@import "blocks/footer";
+@import "blocks/media";

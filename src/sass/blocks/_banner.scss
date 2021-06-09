@@ -1,0 +1,28 @@
+.banner {
+  background: url("../img/bg.png") no-repeat center/cover;
+  padding: 159px 0 204px;
+  color: #fff;
+  .title {
+    margin-bottom: 39px;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 57px;
+    max-width: 315px;
+    line-height: 1.5;
+  }
+}
+.btn {
+  padding: 9px 47px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: 0.2s ease;
+  &:hover {
+    background-color: #fff;
+    color: #333;
+  }
+}
